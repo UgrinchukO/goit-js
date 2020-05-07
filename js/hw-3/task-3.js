@@ -1,14 +1,14 @@
 const findBestEmployee = function (employees) {
   const values = Object.values(employees);
-  const keys = Object.keys(employees);
+  const entries = Object.entries(employees);
 
   let totalEmployee = values[0];
-  let bestEmployeeName = keys[0];
+  let bestEmployeeName = entries[0];
 
   for (let i = 0; i < values.length; i += 1) {
     if (values[i] > totalEmployee) {
       totalEmployee = values[i];
-      bestEmployeeName = keys[i];
+      bestEmployeeName = entries[i];
     }
   }
   return bestEmployeeName;

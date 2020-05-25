@@ -1,4 +1,4 @@
-'use strict';
+
 
 const name = '«Генератор защитного поля»';
 const price = 1000;

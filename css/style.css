@@ -1,0 +1,20 @@
+#gallery {
+    width: 700px;
+    margin: 0 auto;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.item_gal {
+    width: 400px;
+    margin-top: 50px;
+    margin-right: 5px;
+
+}
+
+.img_gal {
+    display: block;
+    width: 400px;
+    height: 250px;
+}

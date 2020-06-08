@@ -1,4 +1,5 @@
-#gallery {
+/*task-3-start*/
+/* #gallery {
     width: 700px;
     margin: 0 auto;
     list-style-type: none;
@@ -17,4 +18,19 @@
     display: block;
     width: 400px;
     height: 250px;
-}
+} */
+/*end*/
+
+/*task-6-start*/
+#validation-input {
+    border: 3px solid #bdbdbd;
+  }
+  
+  #validation-input.valid {
+    border-color: #4caf50;
+  }
+  
+  #validation-input.invalid {
+    border-color: #f44336;
+  }
+/*end*/
